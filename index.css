@@ -1,0 +1,58 @@
+.container {
+    border: 2px solid gray;
+    padding: 10px;
+}
+body{
+    margin:10px;
+    font-family: Arial,sans-serif;
+  
+  }
+
+  .header h5{
+      display: inline;
+      text-align: right;
+  }
+
+
+
+h3{
+        font-size: 28px;
+        color: #066a75;
+        padding: 10px 0;
+        font-family: Arial,sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 30px;
+      
+}
+
+h3:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  }
+
+.container-login{
+    border: 1px solid gray;
+    padding: 20px 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container-login p{
+    padding: 20px 0;
+    display: inline;
+}
+
+.btn-envia{
+    margin: 20px;
+}
+.btn-envia button {
+    width: 200px;
+    margin: 0 auto;
+
+}
